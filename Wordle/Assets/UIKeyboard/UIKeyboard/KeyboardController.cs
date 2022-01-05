@@ -10,8 +10,10 @@ public class KeyboardController : MonoBehaviour
     public string typedString = "";
     
     public void GetKey(char key) {
-        typedString += key;
-        WordController.instance.lines[WordController.instance.currentLineIndex].currentLineWord = typedString;
+        if (WordController.instance.typing && typedString.Length < WordController.instance.wordLength) {
+            typedString += key;
+            WordController.instance.lines[WordController.instance.currentLineIndex].currentLineWord = typedString;
+        }
     }
 
     public void Backspace() {

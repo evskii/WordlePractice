@@ -20,6 +20,8 @@ public class WordController : MonoBehaviour
     public int currentLineIndex = 0;
     public List<Line> lines = new List<Line>();
 
+    public bool typing = true;
+    
     public void Start() {
         StartGameplay();
     }
@@ -27,6 +29,9 @@ public class WordController : MonoBehaviour
     public void StartGameplay() {
         currentWord = WordManager.GetRandomWord(wordLength);
         Debug.Log("Current Word: " + currentWord);
+        typing = true;
+        currentLineIndex = 0;
+        lines[currentLineIndex].enabled = true;
     }
 
     //Return an array that shows the comparrison between the two words
@@ -51,6 +56,7 @@ public class WordController : MonoBehaviour
         // Debug.Log("ToCompare: " + wordToCompare + " CurrentWord: " + currentWord + " = [" + wordComparrison[0] + "," + wordComparrison[1] + "," +wordComparrison[2] + "," +wordComparrison[3] + "," +wordComparrison[4] + "]");
         if (CorrectAnswer(wordToCompare)) {
             Debug.Log("<color=green>WINNER!</color>");
+            typing = false;
         }
         return wordComparrison;
     }
@@ -64,10 +70,14 @@ public class WordController : MonoBehaviour
     }
 
     public void NextLine() {
+        lines[currentLineIndex].enabled = false;
+        currentLineIndex++;
+        
         if (currentLineIndex < lines.Count) {
-            lines[currentLineIndex].enabled = false;
-            currentLineIndex++;
             lines[currentLineIndex].enabled = true;
+        }else if (currentLineIndex == lines.Count) {
+            Debug.Log("<color=red>No shot bozo!</color>");
+            typing = false;
         }
     }
 }
