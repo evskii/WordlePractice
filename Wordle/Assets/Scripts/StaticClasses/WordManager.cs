@@ -35,4 +35,8 @@ public static class WordManager
         }
         return wordsOfLength[Random.Range(0, wordsOfLength.Count)];
     }
+
+    public static bool IsAWord(string wordToCheck) {
+        return allWords.Contains(wordToCheck);
+    }
 }

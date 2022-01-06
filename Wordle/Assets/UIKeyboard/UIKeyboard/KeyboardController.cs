@@ -19,13 +19,13 @@ public class KeyboardController : MonoBehaviour
     public void Backspace() {
         if (typedString.Length > 0) {
             typedString = typedString.Remove(typedString.Length - 1, 1);
+            WordController.instance.lines[WordController.instance.currentLineIndex].currentLineWord = typedString;
         }
     }
 
     public void Enter() {
         if (typedString.Length > 0) {
             WordController.instance.lines[WordController.instance.currentLineIndex].CheckWord();
-            typedString = "";
         }
     }
     

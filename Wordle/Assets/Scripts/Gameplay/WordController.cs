@@ -56,6 +56,7 @@ public class WordController : MonoBehaviour
         // Debug.Log("ToCompare: " + wordToCompare + " CurrentWord: " + currentWord + " = [" + wordComparrison[0] + "," + wordComparrison[1] + "," +wordComparrison[2] + "," +wordComparrison[3] + "," +wordComparrison[4] + "]");
         if (CorrectAnswer(wordToCompare)) {
             Debug.Log("<color=green>WINNER!</color>");
+            PopupMessageController.instance.NewMessage("You win! Congrats x", 5f);
             typing = false;
         }
         return wordComparrison;
@@ -69,6 +70,7 @@ public class WordController : MonoBehaviour
         }
     }
 
+    
     public void NextLine() {
         lines[currentLineIndex].enabled = false;
         currentLineIndex++;
@@ -77,7 +79,27 @@ public class WordController : MonoBehaviour
             lines[currentLineIndex].enabled = true;
         }else if (currentLineIndex == lines.Count) {
             Debug.Log("<color=red>No shot bozo!</color>");
+            PopupMessageController.instance.NewMessage("No shot bozo! Try again...", 5f);
             typing = false;
         }
+
+        FindObjectOfType<KeyboardController>().typedString = "";
+    }
+
+    private void Update() {
+        if (Input.GetKey(KeyCode.A)) {
+            ResetBoard();
+        }
+    }
+
+    public void ResetBoard() {
+        foreach (var line in lines) {
+            line.Reset();
+        }
+
+        currentLineIndex = 0;
+        lines[currentLineIndex].enabled = true;
+        
+        PopupMessageController.instance.ClearMessages();
     }
 }

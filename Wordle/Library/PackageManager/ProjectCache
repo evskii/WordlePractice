@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637769188743546095
-    m_Hash: 1338107236
+      ticks: 637769724639624348
+    m_Hash: 823571092
   m_LockFileStatus:
     m_FilePath: C:/Users/evski/Documents/TUD Games Design/Year 3/Own Projects/Unity/WordlePractice/Wordle/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637769189284088195
-    m_Hash: 479716047
+      ticks: 637769724639627964
+    m_Hash: 1865576060
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -839,12 +839,10 @@ m_ResolvedPackages:
     - 3.0.5
     - 3.0.6
     - 3.0.7
-    - 3.0.9
     compatible:
     - 3.0.6
     - 3.0.7
-    - 3.0.9
-    verified: 3.0.9
+    verified: 3.0.7
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -3620,7 +3618,9 @@ m_ResolvedPackages:
     - 6.0.0-pre.4
     - 6.0.0
     - 6.0.1
+    - 6.0.2
     - 7.0.0-pre.3
+    - 7.0.0-pre.4
     compatible:
     - 5.0.0
     verified: 5.0.0
