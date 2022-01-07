@@ -15,11 +15,11 @@ C:/Users/evski/Documents/TUD Games Design/Year 3/Own Projects/Unity/WordlePracti
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49947
+56146
 Successfully changed project path to: C:/Users/evski/Documents/TUD Games Design/Year 3/Own Projects/Unity/WordlePractice/Wordle
 C:/Users/evski/Documents/TUD Games Design/Year 3/Own Projects/Unity/WordlePractice/Wordle
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 132.58 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 131.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.7f1 (d91830b65d9b)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,913 +35,110 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007482 seconds.
+Registered in 0.002923 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 136.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 126.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.875 seconds
+- Completed reload, in  2.946 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003555 seconds.
+Registered in 0.003567 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 146.55 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 125.69 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.778 seconds
+- Completed reload, in  2.073 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3390 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 131.3 MB.
+Unloading 3392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 131.4 MB.
 System memory in use after: 131.4 MB.
 
-Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3844.
-Total: 4.260200 ms (FindLiveObjects: 0.303700 ms CreateObjectMapping: 0.228300 ms MarkObjects: 3.495400 ms  DeleteObjects: 0.231300 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 3846.
+Total: 3.870400 ms (FindLiveObjects: 0.422900 ms CreateObjectMapping: 0.301700 ms MarkObjects: 2.995200 ms  DeleteObjects: 0.149400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/StaticClasses/WordManager.cs
-  artifactKey: Guid(f2d390d8e2cd9c9448333f8d5f5a9a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/StaticClasses/WordManager.cs using Guid(f2d390d8e2cd9c9448333f8d5f5a9a9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44abb6ba1f8d8946d46b7c6c45180494') in 0.049405 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.327325 seconds.
-  path: Assets/Scripts/Gameplay/WordController.cs
-  artifactKey: Guid(58a1cd800d85f4d4f8f7afa18ebc0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Gameplay/WordController.cs using Guid(58a1cd800d85f4d4f8f7afa18ebc0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f83e11d4ddb2258b3435b0a4bdf98fb') in 0.019003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.819322 seconds.
-  path: Assets/Scripts/Gameplay/Line.cs
-  artifactKey: Guid(0dc846b7de720bd40ab35b37a4254e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Gameplay/Line.cs using Guid(0dc846b7de720bd40ab35b37a4254e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0ad5d907eef9b46de50461405a9e69') in 0.023341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 110.285836 seconds.
-  path: Assets/Scripts/Gameplay/WordController.cs
-  artifactKey: Guid(58a1cd800d85f4d4f8f7afa18ebc0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Gameplay/WordController.cs using Guid(58a1cd800d85f4d4f8f7afa18ebc0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf91624ea65a3c1686aeacad34b1271') in 0.005792 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003681 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.81 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.435 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.0 MB.
-System memory in use after: 130.1 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3848.
-Total: 5.014700 ms (FindLiveObjects: 0.422600 ms CreateObjectMapping: 0.345800 ms MarkObjects: 4.051000 ms  DeleteObjects: 0.193000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 93.104798 seconds.
-  path: Assets/Scripts/Gameplay/WordController.cs
-  artifactKey: Guid(58a1cd800d85f4d4f8f7afa18ebc0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Gameplay/WordController.cs using Guid(58a1cd800d85f4d4f8f7afa18ebc0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bce6678efb565b7326ec94f76d06900') in 0.012541 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003233 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.879 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.1 MB.
-System memory in use after: 130.2 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3852.
-Total: 8.583600 ms (FindLiveObjects: 0.855300 ms CreateObjectMapping: 0.642300 ms MarkObjects: 6.780200 ms  DeleteObjects: 0.302900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004406 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 2.32 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.436 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.04 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.1 MB.
-System memory in use after: 130.2 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3856.
-Total: 5.160400 ms (FindLiveObjects: 0.446300 ms CreateObjectMapping: 0.344200 ms MarkObjects: 4.184800 ms  DeleteObjects: 0.182400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.079428 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.100 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.2 MB.
-System memory in use after: 130.3 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3860.
-Total: 8.444700 ms (FindLiveObjects: 0.719000 ms CreateObjectMapping: 0.590800 ms MarkObjects: 6.821200 ms  DeleteObjects: 0.309500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 158.359753 seconds.
-  path: Assets/Scripts/Gameplay/WordController.cs
-  artifactKey: Guid(58a1cd800d85f4d4f8f7afa18ebc0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Gameplay/WordController.cs using Guid(58a1cd800d85f4d4f8f7afa18ebc0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87631cc9b3fb0ee470d08e288a86b0bf') in 0.017270 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006388 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.593 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.2 MB.
-System memory in use after: 130.3 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3864.
-Total: 3.477500 ms (FindLiveObjects: 0.290400 ms CreateObjectMapping: 0.176900 ms MarkObjects: 2.898600 ms  DeleteObjects: 0.110600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010202 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.208 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3372 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.2 MB.
-System memory in use after: 130.3 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3868.
-Total: 8.629200 ms (FindLiveObjects: 0.706100 ms CreateObjectMapping: 0.544200 ms MarkObjects: 7.060600 ms  DeleteObjects: 0.315300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 417.916282 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(1e4ed5086784f2545a402c7074c1279c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(1e4ed5086784f2545a402c7074c1279c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e029716b83126c51ab5c46f054f4c67d') in 0.055807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.359285 seconds.
-  path: Assets/Scripts/PopupMessages
-  artifactKey: Guid(387d799b7d05b4f4fb4648e82b3b6d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PopupMessages using Guid(387d799b7d05b4f4fb4648e82b3b6d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688234cc64dc908626834e499599c7a9') in 0.037693 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.558812 seconds.
   path: Assets/Scripts/PopupMessages/Message.cs
   artifactKey: Guid(b3872ea8964c9ff49915add39a3dbf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PopupMessages/Message.cs using Guid(b3872ea8964c9ff49915add39a3dbf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d46882a1cb99dce8eff9dfff8391ba5') in 0.012636 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003178 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.391 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3373 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.2 MB.
-System memory in use after: 130.3 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3873.
-Total: 3.140300 ms (FindLiveObjects: 0.300900 ms CreateObjectMapping: 0.166200 ms MarkObjects: 2.566200 ms  DeleteObjects: 0.106000 ms)
-
+Start importing Assets/Scripts/PopupMessages/Message.cs using Guid(b3872ea8964c9ff49915add39a3dbf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4af2e460e2953a746140ad8f608010') in 0.058769 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.888418 seconds.
-  path: Assets/Scripts/PopupMessages/PopupMessageController.cs
-  artifactKey: Guid(cc690a082db8624458ebfd394f470f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PopupMessages/PopupMessageController.cs using Guid(cc690a082db8624458ebfd394f470f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4186f4fc9d639dba1a2544aad0c0df') in 0.015637 seconds 
+  Time since last request: 1626.556953 seconds.
+  path: Assets/Resources/Words.txt
+  artifactKey: Guid(4e70d38cf7ca4b347b0ab2da32a5cfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Words.txt using Guid(4e70d38cf7ca4b347b0ab2da32a5cfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fedd9a0234feeb8441a083b1714cdc5d') in 0.195386 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003400 seconds.
+Registered in 0.003792 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.402 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.2 MB.
-System memory in use after: 130.3 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3878.
-Total: 3.505000 ms (FindLiveObjects: 0.451100 ms CreateObjectMapping: 0.285400 ms MarkObjects: 2.588500 ms  DeleteObjects: 0.178400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003412 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.491 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.3 MB.
-System memory in use after: 130.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3882.
-Total: 4.826800 ms (FindLiveObjects: 0.425800 ms CreateObjectMapping: 0.327600 ms MarkObjects: 3.883500 ms  DeleteObjects: 0.188000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003527 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.122 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.3 MB.
-System memory in use after: 130.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3886.
-Total: 3.270900 ms (FindLiveObjects: 0.324300 ms CreateObjectMapping: 0.221100 ms MarkObjects: 2.597200 ms  DeleteObjects: 0.127100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003445 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.398 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.3 MB.
-System memory in use after: 130.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3890.
-Total: 3.066900 ms (FindLiveObjects: 0.358000 ms CreateObjectMapping: 0.218000 ms MarkObjects: 2.372900 ms  DeleteObjects: 0.116800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 148.722613 seconds.
-  path: Assets/Scripts/PopupMessages/PopupMessageController.cs
-  artifactKey: Guid(cc690a082db8624458ebfd394f470f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PopupMessages/PopupMessageController.cs using Guid(cc690a082db8624458ebfd394f470f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e354fdeb8908d19f0eb4ee69a8d4cbae') in 0.012536 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004739 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.74 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.398 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.3 MB.
-System memory in use after: 130.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3894.
-Total: 3.219800 ms (FindLiveObjects: 0.306400 ms CreateObjectMapping: 0.176000 ms MarkObjects: 2.606600 ms  DeleteObjects: 0.129500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.077649 seconds.
-  path: Assets/Scripts/PopupMessages/PopupMessageController.cs
-  artifactKey: Guid(cc690a082db8624458ebfd394f470f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PopupMessages/PopupMessageController.cs using Guid(cc690a082db8624458ebfd394f470f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d09e94083128ac4ea53b77db47a2e8') in 0.008852 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005752 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.951 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.99 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.3 MB.
-System memory in use after: 130.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3898.
-Total: 9.492200 ms (FindLiveObjects: 0.709400 ms CreateObjectMapping: 0.588800 ms MarkObjects: 7.887500 ms  DeleteObjects: 0.303300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 230.217359 seconds.
-  path: Assets/Scripts/PopupMessages/PopupMessageController.cs
-  artifactKey: Guid(cc690a082db8624458ebfd394f470f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PopupMessages/PopupMessageController.cs using Guid(cc690a082db8624458ebfd394f470f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c26f75cd4f22907e264ca20980c5a3c') in 0.011276 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003191 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.434 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.3 MB.
-System memory in use after: 130.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3902.
-Total: 3.276600 ms (FindLiveObjects: 0.307400 ms CreateObjectMapping: 0.198000 ms MarkObjects: 2.663900 ms  DeleteObjects: 0.106300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.172892 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(a54e77e5096e7cf4abae80c8c05fbc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(a54e77e5096e7cf4abae80c8c05fbc5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b744f68bce86780290f4260224303bf') in 0.045994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.448039 seconds.
-  path: Assets/Prefabs/Message.prefab
-  artifactKey: Guid(109d0e3cdea71834aaa7a2beed2f7f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Message.prefab using Guid(109d0e3cdea71834aaa7a2beed2f7f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '358bc17fcd2c005c8093b4d5634ecb76') in 0.269460 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005208 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.385 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.3 MB.
-System memory in use after: 130.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3906.
-Total: 3.521800 ms (FindLiveObjects: 0.284000 ms CreateObjectMapping: 0.184000 ms MarkObjects: 2.937600 ms  DeleteObjects: 0.114700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003187 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.227 seconds
+- Completed reload, in  1.464 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.3 MB.
-System memory in use after: 130.4 MB.
+System memory in use before: 130.1 MB.
+System memory in use after: 130.2 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3910.
-Total: 5.005300 ms (FindLiveObjects: 0.542200 ms CreateObjectMapping: 0.209600 ms MarkObjects: 4.138800 ms  DeleteObjects: 0.113400 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3850.
+Total: 2.924600 ms (FindLiveObjects: 0.297300 ms CreateObjectMapping: 0.186000 ms MarkObjects: 2.330600 ms  DeleteObjects: 0.109700 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 147.353817 seconds.
-  path: Assets/UIKeyboard/UIKeyboard/InputFieldGetString.cs
-  artifactKey: Guid(cef0719ad44c79c4f9fc6348b5abce68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UIKeyboard/UIKeyboard/InputFieldGetString.cs using Guid(cef0719ad44c79c4f9fc6348b5abce68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a627d150feb6f249958f4b8af1e1704b') in 0.015911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.326477 seconds.
-  path: Assets/UIKeyboard/UIKeyboard/KeyboardController.cs
-  artifactKey: Guid(6d4becf62508a454cbadd0dbd85f533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UIKeyboard/UIKeyboard/KeyboardController.cs using Guid(6d4becf62508a454cbadd0dbd85f533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f6768c509c38f674353c015797a76e') in 0.026316 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 157.125260 seconds.
-  path: Assets/UIKeyboard/UIKeyboard/KeyboardController.cs
-  artifactKey: Guid(6d4becf62508a454cbadd0dbd85f533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UIKeyboard/UIKeyboard/KeyboardController.cs using Guid(6d4becf62508a454cbadd0dbd85f533d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c55f3eb6df0cd03cbd88ef8eabf01c') in 0.006114 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005265 seconds.
+Registered in 0.003372 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.744 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.4 MB.
-System memory in use after: 130.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3914.
-Total: 4.097500 ms (FindLiveObjects: 0.284900 ms CreateObjectMapping: 0.206000 ms MarkObjects: 3.461500 ms  DeleteObjects: 0.143900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003227 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.489 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.4 MB.
-System memory in use after: 130.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3918.
-Total: 5.234200 ms (FindLiveObjects: 0.455100 ms CreateObjectMapping: 0.309200 ms MarkObjects: 4.281400 ms  DeleteObjects: 0.186700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005872 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.546 seconds
+- Completed reload, in  2.026 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.4 MB.
-System memory in use after: 130.5 MB.
+System memory in use before: 130.2 MB.
+System memory in use after: 130.3 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3922.
-Total: 4.971300 ms (FindLiveObjects: 0.382500 ms CreateObjectMapping: 0.227200 ms MarkObjects: 4.162600 ms  DeleteObjects: 0.197300 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3854.
+Total: 2.884300 ms (FindLiveObjects: 0.286600 ms CreateObjectMapping: 0.200400 ms MarkObjects: 2.294900 ms  DeleteObjects: 0.101400 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 258.484224 seconds.
+  path: Assets/Scripts/Gameplay/WordController.cs
+  artifactKey: Guid(58a1cd800d85f4d4f8f7afa18ebc0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gameplay/WordController.cs using Guid(58a1cd800d85f4d4f8f7afa18ebc0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad615f93c143d646a8bcf346145e90d') in 0.015320 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004641 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.232 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.4 MB.
-System memory in use after: 130.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3926.
-Total: 3.225900 ms (FindLiveObjects: 0.291300 ms CreateObjectMapping: 0.169600 ms MarkObjects: 2.657600 ms  DeleteObjects: 0.105800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003722 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.503 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.4 MB.
-System memory in use after: 130.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3930.
-Total: 3.026300 ms (FindLiveObjects: 0.281900 ms CreateObjectMapping: 0.182700 ms MarkObjects: 2.417000 ms  DeleteObjects: 0.143600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003242 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.008 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.37 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.4 MB.
-System memory in use after: 130.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3934.
-Total: 4.719100 ms (FindLiveObjects: 0.432900 ms CreateObjectMapping: 0.320000 ms MarkObjects: 3.786700 ms  DeleteObjects: 0.177600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003512 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.552 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.4 MB.
-System memory in use after: 130.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3938.
-Total: 3.382600 ms (FindLiveObjects: 0.309000 ms CreateObjectMapping: 0.210200 ms MarkObjects: 2.743000 ms  DeleteObjects: 0.119200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004662 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.220 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.4 MB.
-System memory in use after: 130.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3942.
-Total: 7.474200 ms (FindLiveObjects: 0.641800 ms CreateObjectMapping: 0.500500 ms MarkObjects: 6.048500 ms  DeleteObjects: 0.280400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004232 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.565 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.05 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.4 MB.
-System memory in use after: 130.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3946.
-Total: 8.648100 ms (FindLiveObjects: 0.558600 ms CreateObjectMapping: 0.390000 ms MarkObjects: 7.383500 ms  DeleteObjects: 0.314000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006015 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.887 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.4 MB.
-System memory in use after: 130.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3950.
-Total: 5.255200 ms (FindLiveObjects: 0.471000 ms CreateObjectMapping: 0.331700 ms MarkObjects: 4.259200 ms  DeleteObjects: 0.190800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006319 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.98 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.443 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.4 MB.
-System memory in use after: 130.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3954.
-Total: 3.001200 ms (FindLiveObjects: 0.299100 ms CreateObjectMapping: 0.206500 ms MarkObjects: 2.374500 ms  DeleteObjects: 0.120000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003750 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.021 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.4 MB.
-System memory in use after: 130.5 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3958.
-Total: 10.078500 ms (FindLiveObjects: 0.734400 ms CreateObjectMapping: 0.612800 ms MarkObjects: 8.436900 ms  DeleteObjects: 0.290900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004136 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.411 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.5 MB.
-System memory in use after: 130.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3962.
-Total: 3.178800 ms (FindLiveObjects: 0.286900 ms CreateObjectMapping: 0.159700 ms MarkObjects: 2.601200 ms  DeleteObjects: 0.130100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003362 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.485 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.5 MB.
-System memory in use after: 130.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3966.
-Total: 3.830100 ms (FindLiveObjects: 0.396100 ms CreateObjectMapping: 0.299700 ms MarkObjects: 2.998500 ms  DeleteObjects: 0.134500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003196 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.088 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.5 MB.
-System memory in use after: 130.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3970.
-Total: 3.489900 ms (FindLiveObjects: 0.347000 ms CreateObjectMapping: 0.291100 ms MarkObjects: 2.730600 ms  DeleteObjects: 0.119700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003416 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.481 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.5 MB.
-System memory in use after: 130.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3974.
-Total: 5.199100 ms (FindLiveObjects: 0.438500 ms CreateObjectMapping: 0.327600 ms MarkObjects: 4.248300 ms  DeleteObjects: 0.182800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003571 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.432 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.5 MB.
-System memory in use after: 130.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3978.
-Total: 3.486800 ms (FindLiveObjects: 0.311200 ms CreateObjectMapping: 0.171700 ms MarkObjects: 2.834400 ms  DeleteObjects: 0.168300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005330 seconds.
+Registered in 0.003919 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -950,76 +147,681 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.843 seconds
+- Completed reload, in  2.348 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.2 MB.
+System memory in use after: 130.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3858.
+Total: 4.142400 ms (FindLiveObjects: 0.507300 ms CreateObjectMapping: 0.435400 ms MarkObjects: 3.065200 ms  DeleteObjects: 0.133000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.546626 seconds.
+  path: Assets/Scripts/Gameplay/WordController.cs
+  artifactKey: Guid(58a1cd800d85f4d4f8f7afa18ebc0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gameplay/WordController.cs using Guid(58a1cd800d85f4d4f8f7afa18ebc0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc195ed594bac94546cb3258b2e0cb17') in 0.009236 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005997 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.114 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.2 MB.
+System memory in use after: 130.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3862.
+Total: 4.465100 ms (FindLiveObjects: 0.295400 ms CreateObjectMapping: 0.177800 ms MarkObjects: 3.843700 ms  DeleteObjects: 0.147200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.073819 seconds.
+  path: Assets/Scripts/Gameplay/WordController.cs
+  artifactKey: Guid(58a1cd800d85f4d4f8f7afa18ebc0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gameplay/WordController.cs using Guid(58a1cd800d85f4d4f8f7afa18ebc0b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b78763debc89079cca0dddce41e716a7') in 0.024860 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006115 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.527 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.2 MB.
+System memory in use after: 130.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3866.
+Total: 8.583500 ms (FindLiveObjects: 0.663800 ms CreateObjectMapping: 0.576800 ms MarkObjects: 7.038700 ms  DeleteObjects: 0.301000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003454 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.695 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.2 MB.
+System memory in use after: 130.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3870.
+Total: 4.935300 ms (FindLiveObjects: 0.453500 ms CreateObjectMapping: 0.384100 ms MarkObjects: 3.909900 ms  DeleteObjects: 0.186100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003389 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.801 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3874.
+Total: 5.204900 ms (FindLiveObjects: 0.433000 ms CreateObjectMapping: 0.339300 ms MarkObjects: 4.252400 ms  DeleteObjects: 0.178300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005615 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.343 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.17 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3878.
+Total: 4.722300 ms (FindLiveObjects: 0.419900 ms CreateObjectMapping: 0.324600 ms MarkObjects: 3.796100 ms  DeleteObjects: 0.179900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003287 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.579 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3882.
+Total: 4.060700 ms (FindLiveObjects: 0.333500 ms CreateObjectMapping: 0.241300 ms MarkObjects: 3.336400 ms  DeleteObjects: 0.148100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003278 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.465 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3886.
+Total: 3.232700 ms (FindLiveObjects: 0.279200 ms CreateObjectMapping: 0.172400 ms MarkObjects: 2.669700 ms  DeleteObjects: 0.110500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003273 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.080 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3890.
+Total: 4.486400 ms (FindLiveObjects: 0.408000 ms CreateObjectMapping: 0.333200 ms MarkObjects: 3.568500 ms  DeleteObjects: 0.174900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006354 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.225 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3894.
+Total: 6.064400 ms (FindLiveObjects: 0.487500 ms CreateObjectMapping: 0.349000 ms MarkObjects: 5.031400 ms  DeleteObjects: 0.194400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003891 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.400 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3898.
+Total: 6.168500 ms (FindLiveObjects: 0.569900 ms CreateObjectMapping: 0.353400 ms MarkObjects: 5.060000 ms  DeleteObjects: 0.182500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003590 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.776 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3902.
+Total: 3.878600 ms (FindLiveObjects: 0.282900 ms CreateObjectMapping: 0.191500 ms MarkObjects: 3.258800 ms  DeleteObjects: 0.144000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003497 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.641 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3906.
+Total: 2.845100 ms (FindLiveObjects: 0.289700 ms CreateObjectMapping: 0.205600 ms MarkObjects: 2.237700 ms  DeleteObjects: 0.111300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003566 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.405 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3910.
+Total: 4.391400 ms (FindLiveObjects: 0.322100 ms CreateObjectMapping: 0.241100 ms MarkObjects: 3.611000 ms  DeleteObjects: 0.215800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002665 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.844 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3914.
+Total: 2.505700 ms (FindLiveObjects: 0.262800 ms CreateObjectMapping: 0.120300 ms MarkObjects: 1.912000 ms  DeleteObjects: 0.209800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002524 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.925 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.3 MB.
+System memory in use after: 130.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3918.
+Total: 3.395700 ms (FindLiveObjects: 0.276300 ms CreateObjectMapping: 0.120900 ms MarkObjects: 2.799500 ms  DeleteObjects: 0.198300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002514 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.850 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3922.
+Total: 2.950100 ms (FindLiveObjects: 0.243700 ms CreateObjectMapping: 0.113700 ms MarkObjects: 2.378000 ms  DeleteObjects: 0.177000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002502 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.841 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3926.
+Total: 3.634800 ms (FindLiveObjects: 0.347600 ms CreateObjectMapping: 0.274000 ms MarkObjects: 2.728500 ms  DeleteObjects: 0.283300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003533 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.949 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.5 MB.
-System memory in use after: 130.6 MB.
+System memory in use before: 130.4 MB.
+System memory in use after: 130.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3982.
-Total: 3.294100 ms (FindLiveObjects: 0.488400 ms CreateObjectMapping: 0.258200 ms MarkObjects: 2.424300 ms  DeleteObjects: 0.121900 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3930.
+Total: 2.608200 ms (FindLiveObjects: 0.245100 ms CreateObjectMapping: 0.125400 ms MarkObjects: 2.152200 ms  DeleteObjects: 0.084500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005269 seconds.
+Registered in 0.002480 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.296 seconds
+- Completed reload, in  0.924 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3934.
+Total: 2.617800 ms (FindLiveObjects: 0.249200 ms CreateObjectMapping: 0.134600 ms MarkObjects: 2.149100 ms  DeleteObjects: 0.083500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002464 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.879 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3938.
+Total: 3.027600 ms (FindLiveObjects: 0.242600 ms CreateObjectMapping: 0.113900 ms MarkObjects: 2.578800 ms  DeleteObjects: 0.091400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002408 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.890 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3942.
+Total: 3.155000 ms (FindLiveObjects: 0.283600 ms CreateObjectMapping: 0.167700 ms MarkObjects: 2.588700 ms  DeleteObjects: 0.114000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002857 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.874 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3946.
+Total: 3.639100 ms (FindLiveObjects: 0.393600 ms CreateObjectMapping: 0.199000 ms MarkObjects: 2.683600 ms  DeleteObjects: 0.361500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002540 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.887 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3950.
+Total: 2.648600 ms (FindLiveObjects: 0.241400 ms CreateObjectMapping: 0.117000 ms MarkObjects: 2.205900 ms  DeleteObjects: 0.083500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002594 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.870 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3954.
+Total: 2.500800 ms (FindLiveObjects: 0.222500 ms CreateObjectMapping: 0.109100 ms MarkObjects: 2.048600 ms  DeleteObjects: 0.119900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 12037.501574 seconds.
+  path: Assets/Resources/NewWords.txt
+  artifactKey: Guid(8d967bc0ca4c28449948c8ce3d0ec179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/NewWords.txt using Guid(8d967bc0ca4c28449948c8ce3d0ec179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc5925d515ade12e8847e33e5e484f84') in 0.025038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.854653 seconds.
+  path: Assets/Resources/CommonWords.txt
+  artifactKey: Guid(8d967bc0ca4c28449948c8ce3d0ec179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CommonWords.txt using Guid(8d967bc0ca4c28449948c8ce3d0ec179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff50b1c79870400da1fe42c77d389009') in 0.011880 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002236 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.852 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3958.
+Total: 2.347700 ms (FindLiveObjects: 0.232600 ms CreateObjectMapping: 0.122500 ms MarkObjects: 1.912000 ms  DeleteObjects: 0.080000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002767 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.871 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.4 MB.
+System memory in use after: 130.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3962.
+Total: 2.479900 ms (FindLiveObjects: 0.232700 ms CreateObjectMapping: 0.128900 ms MarkObjects: 2.024000 ms  DeleteObjects: 0.093500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.099198 seconds.
+  path: Assets/Resources/Words.txt
+  artifactKey: Guid(4e70d38cf7ca4b347b0ab2da32a5cfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Words.txt using Guid(4e70d38cf7ca4b347b0ab2da32a5cfd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4811847da7d614ce06c1c34177496a54') in 0.032741 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004521 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.930 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 130.5 MB.
 System memory in use after: 130.6 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3986.
-Total: 3.035900 ms (FindLiveObjects: 0.288400 ms CreateObjectMapping: 0.159700 ms MarkObjects: 2.483400 ms  DeleteObjects: 0.103500 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3966.
+Total: 2.871500 ms (FindLiveObjects: 0.391900 ms CreateObjectMapping: 0.117100 ms MarkObjects: 2.272500 ms  DeleteObjects: 0.088800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007062 seconds.
+Registered in 0.002980 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.580 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 130.5 MB.
-System memory in use after: 130.6 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3990.
-Total: 2.949600 ms (FindLiveObjects: 0.482300 ms CreateObjectMapping: 0.244000 ms MarkObjects: 2.120400 ms  DeleteObjects: 0.102000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003008 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.597 seconds
+- Completed reload, in  0.909 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -1027,7 +829,838 @@ Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 130.5 MB.
 System memory in use after: 130.6 MB.
 
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3970.
+Total: 2.468500 ms (FindLiveObjects: 0.244000 ms CreateObjectMapping: 0.125100 ms MarkObjects: 2.018100 ms  DeleteObjects: 0.080700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002801 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.883 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3974.
+Total: 2.313500 ms (FindLiveObjects: 0.234500 ms CreateObjectMapping: 0.114300 ms MarkObjects: 1.886800 ms  DeleteObjects: 0.077100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002414 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.840 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3978.
+Total: 2.383600 ms (FindLiveObjects: 0.246000 ms CreateObjectMapping: 0.125100 ms MarkObjects: 1.932700 ms  DeleteObjects: 0.078900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002330 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.855 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3982.
+Total: 2.377200 ms (FindLiveObjects: 0.240700 ms CreateObjectMapping: 0.112400 ms MarkObjects: 1.942200 ms  DeleteObjects: 0.081200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003231 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.861 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3986.
+Total: 2.343000 ms (FindLiveObjects: 0.236300 ms CreateObjectMapping: 0.114500 ms MarkObjects: 1.862700 ms  DeleteObjects: 0.128800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002346 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.879 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3990.
+Total: 2.514100 ms (FindLiveObjects: 0.231800 ms CreateObjectMapping: 0.110800 ms MarkObjects: 2.095600 ms  DeleteObjects: 0.075100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002355 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.854 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.6 MB.
+
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3994.
-Total: 2.326100 ms (FindLiveObjects: 0.250600 ms CreateObjectMapping: 0.155900 ms MarkObjects: 1.835800 ms  DeleteObjects: 0.083000 ms)
+Total: 2.542900 ms (FindLiveObjects: 0.235100 ms CreateObjectMapping: 0.116600 ms MarkObjects: 2.114300 ms  DeleteObjects: 0.076200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002384 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.975 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3998.
+Total: 3.279800 ms (FindLiveObjects: 0.447200 ms CreateObjectMapping: 0.273900 ms MarkObjects: 2.463200 ms  DeleteObjects: 0.094600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002461 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.889 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4002.
+Total: 2.604100 ms (FindLiveObjects: 0.242600 ms CreateObjectMapping: 0.121000 ms MarkObjects: 2.159300 ms  DeleteObjects: 0.080600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002428 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.980 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.5 MB.
+System memory in use after: 130.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4006.
+Total: 2.425900 ms (FindLiveObjects: 0.263600 ms CreateObjectMapping: 0.139400 ms MarkObjects: 1.933800 ms  DeleteObjects: 0.088000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002788 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.6 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4010.
+Total: 2.608000 ms (FindLiveObjects: 0.247900 ms CreateObjectMapping: 0.121100 ms MarkObjects: 2.154700 ms  DeleteObjects: 0.083600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003407 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.851 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.6 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4014.
+Total: 2.590000 ms (FindLiveObjects: 0.239000 ms CreateObjectMapping: 0.115000 ms MarkObjects: 2.147200 ms  DeleteObjects: 0.088000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002358 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.902 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.6 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4018.
+Total: 2.701900 ms (FindLiveObjects: 0.248700 ms CreateObjectMapping: 0.126300 ms MarkObjects: 2.242900 ms  DeleteObjects: 0.083400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002479 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.867 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.6 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4022.
+Total: 3.967000 ms (FindLiveObjects: 0.426000 ms CreateObjectMapping: 0.236500 ms MarkObjects: 3.138400 ms  DeleteObjects: 0.165000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003929 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.919 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.6 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4026.
+Total: 2.661400 ms (FindLiveObjects: 0.319700 ms CreateObjectMapping: 0.259300 ms MarkObjects: 1.999600 ms  DeleteObjects: 0.081900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003452 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.885 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.6 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4030.
+Total: 2.309600 ms (FindLiveObjects: 0.238200 ms CreateObjectMapping: 0.118600 ms MarkObjects: 1.876100 ms  DeleteObjects: 0.075700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002787 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.894 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.6 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4034.
+Total: 2.307000 ms (FindLiveObjects: 0.245800 ms CreateObjectMapping: 0.115800 ms MarkObjects: 1.866400 ms  DeleteObjects: 0.078300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002415 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.910 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.6 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4038.
+Total: 2.380000 ms (FindLiveObjects: 0.238100 ms CreateObjectMapping: 0.133200 ms MarkObjects: 1.862400 ms  DeleteObjects: 0.145700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003100 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.979 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.6 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4042.
+Total: 3.160000 ms (FindLiveObjects: 0.381400 ms CreateObjectMapping: 0.204800 ms MarkObjects: 2.474600 ms  DeleteObjects: 0.097900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002465 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.878 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.6 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4046.
+Total: 2.530700 ms (FindLiveObjects: 0.268800 ms CreateObjectMapping: 0.134700 ms MarkObjects: 2.041100 ms  DeleteObjects: 0.085400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002429 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.010 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.6 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4050.
+Total: 2.467500 ms (FindLiveObjects: 0.272800 ms CreateObjectMapping: 0.160600 ms MarkObjects: 1.947600 ms  DeleteObjects: 0.085700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002413 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.876 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 130.6 MB.
+System memory in use after: 130.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4054.
+Total: 2.452300 ms (FindLiveObjects: 0.257900 ms CreateObjectMapping: 0.146400 ms MarkObjects: 1.965700 ms  DeleteObjects: 0.081500 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 63.0 MB.
+System memory in use after: 63.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4054.
+Total: 2.289300 ms (FindLiveObjects: 0.255600 ms CreateObjectMapping: 0.143900 ms MarkObjects: 1.811100 ms  DeleteObjects: 0.078000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1954.876292 seconds.
+  path: Assets/Sprites/WhiteSquare.png
+  artifactKey: Guid(db65bd97a11d3064ba9d0dd2e36d4435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/WhiteSquare.png using Guid(db65bd97a11d3064ba9d0dd2e36d4435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2efc35f40a5fea991b5dfbbfaff0e9d') in 0.128468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.543545 seconds.
+  path: Assets/Sprites/EmptySquare.png
+  artifactKey: Guid(2a75787c95bff2c44b941457caaf64b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EmptySquare.png using Guid(2a75787c95bff2c44b941457caaf64b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23e5665c04b6a3d7ac9871bc48b41f2') in 0.022582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 93.942701 seconds.
+  path: Assets/Sprites/EmptySquare.png
+  artifactKey: Guid(2a75787c95bff2c44b941457caaf64b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EmptySquare.png using Guid(2a75787c95bff2c44b941457caaf64b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab3122365e46251a48cc9fb7f2aa21e') in 0.015450 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.9 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4063.
+Total: 3.183100 ms (FindLiveObjects: 0.280700 ms CreateObjectMapping: 0.150600 ms MarkObjects: 2.660900 ms  DeleteObjects: 0.089900 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 66.9 MB.
+System memory in use after: 67.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4063.
+Total: 3.396000 ms (FindLiveObjects: 0.306800 ms CreateObjectMapping: 0.160800 ms MarkObjects: 2.838600 ms  DeleteObjects: 0.088100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002480 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.874 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3376 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.6 MB.
+System memory in use after: 136.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4108.
+Total: 2.916000 ms (FindLiveObjects: 0.264200 ms CreateObjectMapping: 0.132600 ms MarkObjects: 2.395100 ms  DeleteObjects: 0.122900 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.9 MB.
+System memory in use after: 69.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4108.
+Total: 2.596600 ms (FindLiveObjects: 0.265300 ms CreateObjectMapping: 0.131300 ms MarkObjects: 2.112700 ms  DeleteObjects: 0.086600 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.9 MB.
+System memory in use after: 69.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4108.
+Total: 2.960000 ms (FindLiveObjects: 0.246400 ms CreateObjectMapping: 0.174400 ms MarkObjects: 2.416500 ms  DeleteObjects: 0.121700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002875 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.862 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.5 MB.
+System memory in use after: 136.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4112.
+Total: 2.846400 ms (FindLiveObjects: 0.257600 ms CreateObjectMapping: 0.125300 ms MarkObjects: 2.365000 ms  DeleteObjects: 0.097600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002535 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.907 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.5 MB.
+System memory in use after: 136.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4116.
+Total: 2.770000 ms (FindLiveObjects: 0.265800 ms CreateObjectMapping: 0.150100 ms MarkObjects: 2.256000 ms  DeleteObjects: 0.096800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002578 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.962 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.5 MB.
+System memory in use after: 136.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4120.
+Total: 2.672200 ms (FindLiveObjects: 0.276800 ms CreateObjectMapping: 0.146200 ms MarkObjects: 2.154000 ms  DeleteObjects: 0.094500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003734 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.911 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.5 MB.
+System memory in use after: 136.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4124.
+Total: 3.634300 ms (FindLiveObjects: 0.271300 ms CreateObjectMapping: 0.129800 ms MarkObjects: 3.077600 ms  DeleteObjects: 0.154600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002452 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.865 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.5 MB.
+System memory in use after: 136.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4128.
+Total: 2.470300 ms (FindLiveObjects: 0.253200 ms CreateObjectMapping: 0.123300 ms MarkObjects: 2.012800 ms  DeleteObjects: 0.080300 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.9 MB.
+System memory in use after: 69.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4128.
+Total: 2.613600 ms (FindLiveObjects: 0.258000 ms CreateObjectMapping: 0.153200 ms MarkObjects: 2.119300 ms  DeleteObjects: 0.082500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002605 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.050 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.6 MB.
+System memory in use after: 136.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4132.
+Total: 3.448200 ms (FindLiveObjects: 0.452900 ms CreateObjectMapping: 0.225400 ms MarkObjects: 2.676600 ms  DeleteObjects: 0.092400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002458 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.882 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.6 MB.
+System memory in use after: 136.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4136.
+Total: 2.551900 ms (FindLiveObjects: 0.261700 ms CreateObjectMapping: 0.157800 ms MarkObjects: 2.038100 ms  DeleteObjects: 0.093200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002513 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.858 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.6 MB.
+System memory in use after: 136.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4140.
+Total: 4.211400 ms (FindLiveObjects: 0.685500 ms CreateObjectMapping: 0.363300 ms MarkObjects: 3.049900 ms  DeleteObjects: 0.111500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002743 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.878 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.6 MB.
+System memory in use after: 136.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4144.
+Total: 2.708200 ms (FindLiveObjects: 0.279800 ms CreateObjectMapping: 0.134200 ms MarkObjects: 2.213600 ms  DeleteObjects: 0.079800 ms)
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.0 MB.
+System memory in use after: 69.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 4144.
+Total: 2.514200 ms (FindLiveObjects: 0.256900 ms CreateObjectMapping: 0.148000 ms MarkObjects: 2.023400 ms  DeleteObjects: 0.085400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002554 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\evski\Documents\TUD Games Design\Year 3\Own Projects\Unity\WordlePractice\Wordle\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.919 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 136.6 MB.
+System memory in use after: 136.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4148.
+Total: 2.363200 ms (FindLiveObjects: 0.345000 ms CreateObjectMapping: 0.151300 ms MarkObjects: 1.780800 ms  DeleteObjects: 0.085400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

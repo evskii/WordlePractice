@@ -24,9 +24,10 @@ public class KeyboardController : MonoBehaviour
     }
 
     public void Enter() {
-        if (typedString.Length > 0) {
+        if (typedString.Length == WordController.instance.wordLength) {
             WordController.instance.lines[WordController.instance.currentLineIndex].CheckWord();
+        } else {
+            PopupMessageController.instance.NewMessage("Little too short there bud...", 3f);
         }
     }
-    
 }

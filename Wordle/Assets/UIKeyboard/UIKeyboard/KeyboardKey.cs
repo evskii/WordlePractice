@@ -26,4 +26,8 @@ public class KeyboardKey : MonoBehaviour
 		}
 		
 	}
+
+	public void SetColour(Color colorToUse) {
+		GetComponent<Image>().color = colorToUse;
+	}
 }

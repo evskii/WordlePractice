@@ -54,19 +54,28 @@ public class Line : MonoBehaviour
             }
         }
     }
-
+    
     public void CheckWord() {
         if (WordManager.IsAWord(currentLineWord)) {
             var comparedValues = WordController.instance.CompareWord(currentLineWord);
             for (int i = 0; i < letterSquares.Count; i++) {
                 letterSquares[i].sprite = letterSquareSprites[comparedValues[i]];
+
+                var targetKey = GameObject.Find(currentLineWord[i].ToString());
+                var targetKeyScript = targetKey.GetComponent<KeyboardKey>();
+                if (targetKey.GetComponent<Image>().color != WordController.instance.keyColors[2]) {
+                    targetKeyScript.SetColour(WordController.instance.keyColors[comparedValues[i]]);
+                }
             }
-            WordController.instance.NextLine();
+            if (!WordController.instance.CorrectAnswer(currentLineWord)) {
+                WordController.instance.NextLine();
+            }
+            
+
         } else {
             //Send a message about how this is not a word
             Debug.Log("<color=red> This word does not exist: " + currentLineWord + "</color>");
             PopupMessageController.instance.NewMessage("That word does not exist, Bozo!", 3f);
         }
-        
     }
 }

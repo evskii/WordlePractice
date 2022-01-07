@@ -14,6 +14,8 @@ public class WordController : MonoBehaviour
         instance = this;
     }
 
+    public Color[] keyColors;
+
     public int wordLength = 5;
     public string currentWord;
 
@@ -56,7 +58,7 @@ public class WordController : MonoBehaviour
         // Debug.Log("ToCompare: " + wordToCompare + " CurrentWord: " + currentWord + " = [" + wordComparrison[0] + "," + wordComparrison[1] + "," +wordComparrison[2] + "," +wordComparrison[3] + "," +wordComparrison[4] + "]");
         if (CorrectAnswer(wordToCompare)) {
             Debug.Log("<color=green>WINNER!</color>");
-            PopupMessageController.instance.NewMessage("You win! Congrats x", 5f);
+            PopupMessageController.instance.NewMessage("You win! Congrats x", 120f);
             typing = false;
         }
         return wordComparrison;
@@ -79,17 +81,17 @@ public class WordController : MonoBehaviour
             lines[currentLineIndex].enabled = true;
         }else if (currentLineIndex == lines.Count) {
             Debug.Log("<color=red>No shot bozo!</color>");
-            PopupMessageController.instance.NewMessage("No shot bozo! Try again...", 5f);
+            PopupMessageController.instance.NewMessage("No shot bozo! Try again... The word was " + currentWord, 120f);
             typing = false;
         }
 
         FindObjectOfType<KeyboardController>().typedString = "";
     }
 
-    private void Update() {
-        if (Input.GetKey(KeyCode.A)) {
-            ResetBoard();
-        }
+
+    public void ResetGame() {
+        ResetBoard();
+        StartGameplay();
     }
 
     public void ResetBoard() {
@@ -101,5 +103,12 @@ public class WordController : MonoBehaviour
         lines[currentLineIndex].enabled = true;
         
         PopupMessageController.instance.ClearMessages();
+
+        FindObjectOfType<KeyboardController>().typedString = "";
+
+        var allKeys = FindObjectsOfType<KeyboardKey>();
+        foreach (var key in allKeys) {
+            key.SetColour(Color.white);
+        }
     }
 }
